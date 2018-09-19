@@ -1,7 +1,7 @@
 {
   "name": "async-dirtree-test",
   "version": "0.0.1",
-  "description": "Sample code which likely triggers ENOENT in fs.lstat()",
+  "description": "A tool to list files recursively which may triggers ENOENT",
   "repository": "https://github.com/nieltg/node-lstat-enoent-test",
   "author": "nieltg",
   "license": "MIT",
