@@ -2,11 +2,12 @@
   "name": "async-dirtree-test",
   "version": "0.0.1",
   "description": "Sample code which likely triggers ENOENT in fs.lstat()",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "repository": "https://github.com/nieltg/node-lstat-enoent-test",
   "author": "nieltg",
   "license": "MIT",
+  "bin": {
+    "async-dirtree-test": "bin/async-dirtree-test"
+  },
   "devDependencies": {
     "@types/node": "^10.10.1",
     "@types/yargs": "^12.0.0",
