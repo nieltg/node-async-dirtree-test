@@ -1,6 +1,8 @@
 # async-dirtree-test
 
+[![Build Status](https://travis-ci.org/nieltg/node-async-dirtree-test.svg?branch=master)](https://travis-ci.org/nieltg/node-async-dirtree-test)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![npm](https://img.shields.io/npm/v/async-dirtree-test/latest.svg)](https://www.npmjs.com/package/async-dirtree-test)
 
 List all files available in a directory and its descendants recursively. This demo relies on `fs.readdir()` and `fs.lstat()` for doing its job and is also likely to triggers `ENOENT` error.
 
